@@ -1,1 +1,1 @@
-# humane-by-design-case-study
+# Humane By Design System Study
