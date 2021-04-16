@@ -1,0 +1,27 @@
+:root {
+    --font-sans-serif: Raleway, sans-serif;
+    --black-basic: #000;
+    --black-gray-dark: #101117;
+    --black-gray: #14151D;
+    --gray-dark: #55586B;
+    --gray: #9DA0B2;
+    --gray-light: #CFD0D6;
+    --purple: #7348D5;
+    --blue: #4B92E3;
+    --teal: #55586B;
+    --pink: #62B8B8;
+    --orange: #D94F36;
+    --yellow-dark: #C7AF28;
+    --green: #45A36C;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      font-family: Raleway, Arial, Helvetica, sans-serif;
+  }
