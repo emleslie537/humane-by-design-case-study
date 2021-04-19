@@ -191,7 +191,7 @@ main {
 }
 
 .component__code h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 200;
   margin-top: 1rem;
   padding-left: 1rem;
@@ -204,3 +204,9 @@ div {
 .hero__logo {
   max-width: 40%;
 }
+
+..nav-button {
+  font-size: 1rem;
+}
+
+
