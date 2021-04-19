@@ -8,22 +8,264 @@
     <link rel="stylesheet" href="../css/main.css">
     <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Web Components</h1>
+<body class="component-page">
 
-    <h2>Typography Defaults</h2>
+    <!--Sidebar Header-->
 
-    <article class="component"> 
-        <h3 class="component__title">Hero</h3>
-        <img 
-        srcset="img/hero.png 2x"
-        src="img/hero.png" 
-        alt="hero image">
-    </article>
+    <header class="component-page__header">
 
-    <div class="component__code">
-        A resource that provides guidance for designing ethically
-        humane digital products through patterns focused on user well-being.
-    </div>
+        <div class="component-page__header-container">
+
+            <img src="./img/hero__logo2.png" class="component-page__header-logo">
+
+            <h2 class="component-page__header-website-name">Humane By Design</h2>
+
+    <!--Sidebar Nav-->
+
+        <nav class="sidebar-nav component-page__nav">
+
+            <!--Sidebar Nav Section Typography-->
+
+            <section class="sidebar-nav__section">
+
+                <h2 class="sidebar-nav__heading"><a href="#typography">Typography</a></h2>
+
+                <ul class="sidebar-nav__list">
+                    <li><a href="#typography">body</a></li>
+                    <li><a href="#headings">h1, h2, h3, ....</a></li>
+                </ul>
+
+            </section>
+
+            <!--Sidebar Nav Section Colors-->
+
+            <section class="sidebar-nav__section">
+
+                <h2 class="sidebar-nav__heading"><a href="#colors">Colors</a></h2>
+
+                <ul class="sidebar-nav__list">
+                    <li><a href="#main-colors">main-colors</a></li>
+                    <li><a href="#accent-colors">accent-colors</a></li>
+                </ul>
+
+            </section>
+
+            <!--Sidebar Nav Section Atoms-->
+
+            <section class="sidebar-nav__section">
+
+                <h2 class="sidebar-nav__heading"><a href="#atoms">Atoms</a></h2>
+
+                <ul class="sidebar-nav__list">
+                    <li><a href="#hero__logo">hero__logo</a></li>
+                    <li><a href="#nav-button">nav-button</a></li>
+                    <li><a href="#nav-button__action-state">nav-button__action-state</a></li>
+                    <li><a href="#section-heading">section-heading</a></li>
+                    <li><a href="#backround-image">background-image</a></li>
+                    <li><a href="#blank-card">blank-card</a></li>
+                    <li><a href="#card">card</a></li>
+                    <li><a href="#card__action-state">card__action-state</a></li>
+                    <li><a href="#arrow__action-link">arrow__action-link</a></li>
+                    <li><a href="#icons">icons</a></li>
+                </ul>
+
+            </section>
+
+            <!--Sidebar Nav Section Page Header-->
+
+            <section class="sidebar-nav__section">
+
+                <h2 class="sidebar-nav__heading"><a href="#page-header">Page Header</a></h2>
+
+                <ul class="sidebar-nav__list">
+                    <li><a href="#page-header">page-header</a></li>
+                </ul>
+
+            </section>
+
+            <!--Sidebar Section Main Nav-->
+
+            <section class="sidebar-nav__section">
+
+                <h2 class="sidebar-nav__heading"><a href="#main-nav">Main Nav</a></h2>
+
+                <ul class="sidebar-nav__list">
+                    <li><a href="#main-nav">main-nav</a></li>
+                    <li><a href="#main-nav__list">main-nav__list</a></li>
+                </ul>
+
+            </section>
+
+            <!--Sidebar Section Cover-->
+
+            <section class="sidebar-nav__section">
+
+                <h2 class="sidebar-nav__heading"><a href="#cover-section">Cover Section</a></h2>
+
+                <ul class="sidebar-nav__list">
+                    <li><a href="#cover-section--hero">cover-section--hero</a></li>
+                    <li><a href="#cover-section--hero__contents">cover-section--hero__contents</a></li>
+                </ul>
+
+            </section>
+
+            <!--Sidebar Section Cards-->
+
+            <section class="sidebar-nav__section">
+
+                <h2 class="sidebar-nav__heading"><a href="#cards-section">Cards Section</a></h2>
+                
+                <ul class="sidebar-nav__list">
+                    <li><a href="#card-section">card-section</a></li>
+                    <li><a href="#card-section__action-state">card-section__action-state</a></li>
+                    <li><a href="#card-section__contents">card-section__contents</a></li>
+                </ul>
+
+            </section>
+
+            <!--Sidebar Section Cards-->
+            
+            <section class="sidebar-nav__section">
+
+                <h2 class="sidebar-nav__heading"><a href="#page-footer">Page Footer</a></h2>
+
+                <ul class="sidebar-nav__list">
+                    <li><a href="#page-footer">page-footer</a></li>
+                    <li><a href="#social-list">social-list</a></li>
+                    <li><a href="#page-footer__contents">page-footer__contents</a></li>
+                </ul>
+
+            </section>
+        </nav>
+        </div>
+    </header>
+
+    <!--Components-->
+
+    <main class="container component-page__main">
+
+        <h1 class="component-page__main-title">Web Components</h1>
+
+        <p>This is a collection of components based on my study of the design system of the
+            <a href="https://humanebydesign.com/">Humane By Design Website</a></p>
+
+        <!--Page Section Typography-->
+
+        <section class="page-section" id="typography">
+
+            <h2 class="component-page__section-heading">Typography</h2>
+
+            <!--Body-copy-->
+
+            <article class="component"> 
+
+                <h3 class="component__name" id="body-copy">body</h3>
+
+                <div class="component__img">
+                    <img 
+                    srcset="./img/body-copy.png 2x"
+                    src="./img/body-copy.png" 
+                    alt="website body image">
+                </div>
+
+            </article>
+
+            <!--Body-copy Code-->
+
+            <div class="component__code">
+
+                <p>A resource that provides guidance for designing ethically
+                humane digital products through patterns focused on user well-being.</p>
+
+            </div>
+
+            <!--Headings-->
+
+            <article class="component" id="headings"> 
+
+                <h3 class="component__name">headings h1, h2, ...</h3>
+
+                <div class="component__img">
+                    <img 
+                    srcset="./img/h1.png 2x" 
+                    src="./img/h1.png" 
+                    alt="h1">
+               
+                    <img 
+                    srcset="./img/h2.png 2x"
+                    src="./img/h2.png" 
+                    alt="h2">
+                </div>
+
+                <!--Headings Code-->
+
+                <div class="component__code">
+                    <h1>Humane By Design</h1>
+                    <h2>Empowering</h2>
+                </div>
+
+            </article>
+        </section>
+
+        <!--Colors-->
+
+        <section class="page-section" id="colors">
+
+            <h2 class="component-page__section-heading">Colors</h2>
+
+            <!--Main Colors-->
+
+            <article class="component" id="main-colors"> 
+
+                <h3 class="component__name">main colors</h3>
+
+                <div class="black-gray-dark"></div>
+                <div class="black-gray"></div>
+                <div class="gray-dark"></div>
+                <div class="gray"></div>
+                <div class="gray-light"></div>
+
+            </article>
+
+            <!--Accent Colors-->
+
+            <article class="component" id="accent-colors">
+
+                <h3 class="component__name">accent colors</h3>
+
+                <div class="purple"></div>
+                <div class="blue"></div>
+                <div class="teal"></div>
+                <div class="pink"></div>
+                <div class="orange"></div>
+                <div class="yello-dark"></div>
+                <div class="green"></div>
+
+            </article>
+        </section>
+
+        <!--Atoms-->
+
+        <section class="page-section" id="atoms">
+
+            <h2 class="component-page__section-heading">Atoms</h2>
+
+            <!--Logo-->
+
+            <article class="component" id="hero__logo"> 
+
+                <h3 class="component__name">hero__logo</h3>
+
+                <div class="component__img">
+                    <img 
+                    srcset="./img/hero__logo.png 2x" 
+                    src="./img/hero__logo.png" 
+                    alt="logo">
+                </div>
+            </article>
+
+        </section>
+
+    </main>
 </body>
 </html>
