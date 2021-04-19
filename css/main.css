@@ -75,9 +75,15 @@ header {
   position: static;
 }
 
+.component-page__header-logo {
+  padding-left: 0;
+  width: 40%;
+}
+
 .component-page__header-website-name {
   color: var(--black-gray-dark);
   font-size: 2rem;
+  margin-top: 5px;
 }
 
 .component-page__nav {
@@ -161,6 +167,7 @@ main {
   border: 1px solid #ccc;
   overflow-x: auto;
   margin: 10px 0;
+  padding-left: 0.5rem;
   position: relative;
 }
 
@@ -168,23 +175,32 @@ main {
   border: 1px solid #ccc;
   margin-bottom: 4rem;
   position: relative;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 
 .component__code p {
   font-size: 1rem;
+  padding-left: 1rem;
 }
 
 .component__code h1 {
   font-size: 4rem;
   margin-top: 1rem;
   margin-bottom: 0;
+  padding-left: 1rem;
 }
 
 .component__code h2 {
-  font-size: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: 1rem;
+  padding-left: 1rem;
 }
 
 div {
   display: block;
+}
+
+.hero__logo {
+  max-width: 40%;
 }
