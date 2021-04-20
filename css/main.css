@@ -177,6 +177,8 @@ main {
   position: relative;
 }
 
+/**Component Code**/
+
 .component__code {
   border: 1px solid #ccc;
   margin-bottom: 4rem;
