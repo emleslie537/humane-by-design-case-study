@@ -232,7 +232,7 @@ main {
   color: var(--gray-light);
 }
 
-.button-primary a:hover {
+.component__code .button-primary a:hover {
   color: var(--gray);
 }
 
