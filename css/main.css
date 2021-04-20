@@ -24,7 +24,9 @@ html {
     box-sizing: inherit;
   }
 
-   /**Typography Defaults**/
+   /**Typography Defaults**/ 
+   /**Humane By Design Website uses the font Graphik.  
+   It is a paid font so I am substituting with the font Raleway**/
 
 body {
   font-family: var(--font-sans-serif);
@@ -48,6 +50,8 @@ img {
   max-width: 100%;
   display: block;
 }
+
+/**Component Page**/
 
 .component-page {
   display: grid;
@@ -91,16 +95,14 @@ header {
   margin-top: 1.33rem;
 }
 
+/**Component Page Sidebar**/
+
 .sidebar-nav {
   background: var(--gray-light);
 }
 
 .sidebar-nav__section {
   margin-top: 2.5rem;
-}
-
-section {
-  display: block;
 }
 
 .sidebar-nav__heading {
@@ -119,11 +121,11 @@ section {
 }
 
 a {
-  color: var(--black-gray);
+  color: var(--gray-light);
   text-decoration: none;
 }
 
-/**Component**/
+/**Components**/
 
 .container {
   padding: 2rem;
