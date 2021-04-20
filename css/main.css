@@ -121,8 +121,12 @@ header {
 }
 
 a {
-  color: var(--gray-light);
+  color: var(--black-gray);
   text-decoration: none;
+}
+
+.website-link {
+  color: var(--gray-light);
 }
 
 /**Components**/
