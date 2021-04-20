@@ -50,6 +50,15 @@ img {
   display: block;
 }
 
+a {
+  color: var(--black-gray);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--purple);
+}
+
 /**Component Page**/
 
 .component-page {
@@ -117,15 +126,6 @@ header {
 
 .sidebar-nav__list a {
   text-decoration: none;
-}
-
-a {
-  color: var(--black-gray);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--purple);
 }
 
 .website-link {
