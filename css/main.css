@@ -197,10 +197,6 @@ main {
   padding-left: 1rem;
 }
 
-div {
-  display: block;
-}
-
 .hero__logo {
   max-width: 40%;
 }
