@@ -217,6 +217,17 @@ main {
   max-width: 40%;
 }
 
+/**Icons**/
+
+.card-icons {
+  display: flex;
+  align-items: baseline;
+}
+
+.card-icons img {
+  padding-right: 10px;
+}
+
 /**Button**/
 
 .component__code .button-primary {
@@ -258,5 +269,8 @@ main {
   margin-left: 0;
   padding-top: 65%;
 }
+
+
+
 
 
