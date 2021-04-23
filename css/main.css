@@ -228,10 +228,10 @@ main {
   padding-right: 10px;
 }
 
-/**Button**/
+/**Nav Button**/
 
 .component__code .button-primary {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   background: none;
   border: none;
   margin: 4px 2px;
@@ -245,6 +245,27 @@ main {
 
 .component__code .button-primary a:hover {
   color: var(--gray);
+}
+
+/**Main Nav List**/
+.main-nav {
+  background: var(--black-gray-dark);
+}
+
+.main-nav__list {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 0;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+}
+.main-nav__list a{
+  color: var(--gray-light);
+  padding-right: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  justify-items: left;
 }
 
 /**Card**/
