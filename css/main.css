@@ -231,39 +231,47 @@ main {
 
 /**Nav Button**/
 
-.button-primary {
+.header__link {
   background: none;
   border: none;
   cursor: pointer;
+  display: inline-block;
 }
 
-.button-primary a {
+.header__link a {
   color: var(--gray-light);
 }
 
-.button-primary a:hover {
+.header__link a:hover {
   color: var(--gray);
 }
 
 /**Main Nav List**/
-.main-nav {
+.header-nav {
   background: var(--black-gray-dark);
 }
 
-.main-nav__list {
+.header-nav__list {
   list-style: none;
   text-decoration: none;
-  margin-left: 0;
-  padding-left: 1rem;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
   font-size: 1.3rem;
   display: flex;
 }
-.main-nav__list a{
+.header-nav__list a{
   color: var(--gray-light);
-  padding-right: 2.5rem;
+  padding-right: 2.1rem;
   display: flex;
   justify-content: space-between;
   justify-items: left;
+}
+
+/**Header**/
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7.1rem;
 }
 
 /**Card**/
@@ -288,6 +296,40 @@ main {
   margin-left: 0;
   padding-top: 65%;
 }
+
+/**Grid**/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 0;
+  padding: -10;
+}
+
+/**Footer**/
+
+.footer {
+  position: relative;
+  padding: 2em 6em;
+  background-color: var(--black-gray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+/**Social List**/
+.social {
+  display: inline-block;
+  display: flex;
+}
+
+.social__item {
+  list-style: none;
+  margin-right: 1.5em;
+}
+
+
 
 
 
