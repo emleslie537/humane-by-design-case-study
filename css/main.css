@@ -300,17 +300,33 @@ main {
 /**Hero**/
 .page-hero {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-left: 7rem;
+}
+
+.intro {
+  max-width: 30rem;
+  align-self: flex-start;
 }
 
 .intro .intro__title {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 600;
 }
 
-.intro__body-copy {
-  align-
+.intro__body-copy p {
+  font-size: 1.3rem;
+  max-width: 80%;
+  align-self: flex-end;
+}
+
+.page-hero__intro-body-copy p {
+  font-size: 1.3rem;
+  justify-self: flex-end;
+  max-width: 70%;
+  margin-left: 10rem;
 }
 
 /**Grid**/
