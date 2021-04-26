@@ -297,6 +297,22 @@ main {
   padding-top: 65%;
 }
 
+/**Hero**/
+.page-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro .intro__title {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.intro__body-copy {
+  align-
+}
+
 /**Grid**/
 .grid .container {
   max-width: 40em;
