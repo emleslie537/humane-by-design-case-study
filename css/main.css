@@ -325,8 +325,8 @@ main {
 .page-hero__intro-body-copy p {
   font-size: 1.3rem;
   justify-self: flex-end;
-  max-width: 70%;
-  margin-left: 10rem;
+  max-width: 55%;
+  margin-left: 4.5rem;
 }
 
 /**Grid**/
