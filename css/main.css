@@ -238,6 +238,15 @@ main {
   display: inline-block;
 }
 
+.header__link-active a {
+  color: var(--gray-light);
+  cursor: pointer;
+}
+
+.header__link-active a:hover {
+  border-bottom-style: solid white;
+}
+
 .header__link a {
   color: var(--gray-light);
 }
