@@ -8,8 +8,8 @@
     --gray-light: #CFD0D6;
     --purple: #7348D5;
     --blue: #4B92E3;
-    --teal: #55586B;
-    --pink: #62B8B8;
+    --teal: #62B8B8;
+    --pink: #D166A5;
     --orange: #D94F36;
     --yellow-dark: #C7AF28;
     --green: #45A36C;
@@ -292,7 +292,15 @@ main {
   padding: 16px;
   background: #14151d;
   text-align: left;
-  border-top: 4px solid #7348D4;
+  border-top: 4px solid var(--purple);
+}
+
+.card--finite {
+  border-top: 4px solid var(--blue);
+}
+
+.card--inclusive {
+  border-top: 4px solid var(--teal);
 }
 
 .card__icon {
