@@ -295,14 +295,6 @@ main {
   border-top: 4px solid var(--purple);
 }
 
-.card--finite {
-  border-top: 4px solid var(--blue);
-}
-
-.card--inclusive {
-  border-top: 4px solid var(--teal);
-}
-
 .card__icon {
   max-width: 30%;
   padding-top: 10px;
@@ -312,6 +304,30 @@ main {
   color: #CFD0D6;
   margin-left: 0;
   padding-top: 65%;
+}
+
+.card--finite {
+  border-top: 4px solid var(--blue);
+}
+
+.card--inclusive {
+  border-top: 4px solid var(--teal);
+}
+
+.card--resilient {
+  border-top: 4px solid var(--pink);
+}
+
+.card--respectful {
+  border-top: 4px solid var(--orange);
+}
+
+.card--thoughtful {
+  border-top: 4px solid var(--yellow-dark);
+}
+
+.card--transparent {
+  border-top: 4px solid var(--green);
 }
 
 /**Hero**/
