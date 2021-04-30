@@ -274,13 +274,18 @@ a:hover {
 
 .footer {
   position: relative;
-  padding: 2em 6em;
+  z-index: 2;
+  padding: 1.5em 0;
   background-color: var(--black-gray);
+  display: block;
+}
+
+.footer__container {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  justify-items: center;
 }
 
 /**Social List**/
@@ -292,6 +297,10 @@ a:hover {
 .social__item {
   list-style: none;
   margin-right: 1.5em;
+}
+
+.social__item img:hover {
+  cursor: pointer;
 }
 
 
