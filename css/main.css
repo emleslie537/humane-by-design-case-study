@@ -39,11 +39,16 @@ h1, h2, h3, h4, h5 {
   font-family: var(--font-sans-serif);
   color: var(--gray-light);
   line-height: 1.2;
-  font-weight: 600;
 }
 
-h3 {
- font-size: 1rem;
+h1 {
+  font-size: 2em;
+  margin: 0;
+  display: block;
+}
+
+p {
+  display: block;
 }
 
 img {
@@ -174,11 +179,24 @@ a:hover {
   margin: 0 0 1.5em;
 }
 
+.page-hero__header-title {
+  font-size: 5.063em;
+  font-weight: 600;
+  line-height: 1;
+}
+
 .page-hero__body {
   position: relative;
   top: .5em;
   grid-column: 2/3;
   grid-row: 2/3;
+  max-width: 100%;
+  font-size: 1.3em;
+  color: var(--gray);
+}
+
+.page-hero__body-p {
+  margin: 0;
 }
 
 /**Grid**/
