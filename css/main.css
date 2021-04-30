@@ -86,6 +86,19 @@ a:hover {
   margin: 0 auto;
 }
 
+/**Hidden**/
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
 /**Header**/
 .header {
   position: fixed;
@@ -154,7 +167,6 @@ a:hover {
   position: relative;
   z-index: 1;
   margin: 0 0 4.5em;
-  border: 5px solid red
 }
 
 .page-hero__container {
