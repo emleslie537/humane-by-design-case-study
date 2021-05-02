@@ -219,20 +219,32 @@ a:hover {
 .grid {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-column-gap: 0;
-  flex-basis: 32%;
+  grid-column-gap: 1.5em;
 }
 
 /**Card**/
 
 .card {
   display: block;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
   width: 300px;
   height: 350px;
   padding: 16px;
   background: #14151d;
   text-align: left;
-  border-top: 4px solid var(--purple);
+  border-top: 3px solid var(--purple);
+  transition: .3s cubic-bezier(.645, .045, .355, 1);
+  min-width: 0;
+}
+
+.card .is-visible {
+  opacity: 1;
+  animation: d .6s cubic-bezier(.645, .045, .355, 1) forwards;
 }
 
 .card__icon {
