@@ -489,7 +489,7 @@ a:hover {
   margin-right: 1.5em;
 }
 
-.social__item:hover {
+.social__item a:hover {
   cursor: pointer;
   fill: var(--gray);
 }
