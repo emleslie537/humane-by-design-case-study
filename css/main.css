@@ -141,7 +141,7 @@ a:hover {
   z-index: 4;
   width: 100%;
   height: auto;
-  padding: 1em;
+  padding: 1em 0;
   background: none;
   color: var(--gray-light);
 }
@@ -163,7 +163,7 @@ a:hover {
   color: var(--gray-light);
   display: flex;
   justify-content: space-between;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 .header__link {
