@@ -494,6 +494,13 @@ a:hover {
   fill: var(--gray);
 }
 
+.icon-sources {
+  background-color: var(--black-gray);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+}
 
 
 
