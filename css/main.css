@@ -141,20 +141,20 @@ a:hover {
   z-index: 4;
   width: 100%;
   height: auto;
+  padding: 1em;
   background: none;
   color: var(--gray-light);
 }
 
 .header-nav ul {
   padding-left: 0;
-  padding-top: .5rem;
   margin: 0;
 }
 
 .header-nav__list {
   list-style: none;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: start;
 }
@@ -163,7 +163,6 @@ a:hover {
   color: var(--gray-light);
   display: flex;
   justify-content: space-between;
-  padding: .5rem;
   margin-right: 1rem;
 }
 
@@ -192,7 +191,7 @@ a:hover {
 .header-nav__icon {
   max-width: 100%;
   margin: 0;
-  padding: .25rem;
+  padding-bottom: .25rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
