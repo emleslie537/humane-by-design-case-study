@@ -117,10 +117,21 @@ a:hover {
   justify-content: space-between;
   position: relative;
 }
+}
 
-/**Nav List**/
+/**Nav**/
 .header-nav {
-  background: var(--black-gray-dark);
+  display: block;
+  position: static;
+  z-index: 4;
+  width: 100%;
+  height: auto;
+  background: none;
+  color: var(--gray-light);
+}
+
+.header-nav ul {
+  padding-left: 0;
 }
 
 .header-nav__list {
@@ -128,13 +139,14 @@ a:hover {
   text-decoration: none;
   font-size: 1.3rem;
   display: flex;
+  justify-content: start;
+  justify-items: left;
 }
 .header-nav__list a{
   color: var(--gray-light);
   padding-right: 2.1rem;
   display: flex;
   justify-content: space-between;
-  justify-items: left;
 }
 
 /**Nav**/
