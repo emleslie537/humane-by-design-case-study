@@ -79,7 +79,7 @@ a:hover {
 /**Container**/
 
 .container--lrg {
-  max-width: 80em;
+  max-width: 70em;
 }
 
 .container {
@@ -181,8 +181,9 @@ a:hover {
 }
 
 .page-hero__icon img {
-  width: 136px;
-  height: 136px;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 3em;
 }
 
 .page-hero__header {
@@ -193,7 +194,7 @@ a:hover {
 }
 
 .page-hero__header-title {
-  font-size: 5.063em;
+  font-size: 5em;
   font-weight: 600;
   line-height: 1;
 }
@@ -238,13 +239,11 @@ a:hover {
   background: #14151d;
   text-align: left;
   border-top: 3px solid var(--purple);
-  transition: .3s cubic-bezier(.645, .045, .355, 1);
   min-width: 0;
 }
 
 .card .is-visible {
   opacity: 1;
-  animation: d .6s cubic-bezier(.645, .045, .355, 1) forwards;
 }
 
 .card__icon {
